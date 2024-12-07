@@ -1,0 +1,111 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animation d'oscillation horizontale ou verticale */
+@keyframes moveIcon {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 0);  /* Déplacement horizontal */
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Rotation continue des icônes */
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Appliquer les animations avec Tailwind CSS */
+@layer utilities {
+    .move-icon {
+        animation: moveIcon 6s infinite ease-in-out;
+    }
+
+    .rotate-icon {
+        animation: rotateIcon 10s infinite linear;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+.typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid transparent; /* Crée l'effet du curseur */
+}
+
+.forsa {
+    animation: typingForsa 2s steps(5) 1s forwards; /* Animation pour Forsa */
+}
+
+.market {
+    animation: typingMarket 2s steps(6) 1s forwards; /* Animation pour Market */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px); /* Déplace le bouton de 2px vers le haut */
+    }
+    100% {
+        transform: translateY(2px); /* Déplace le bouton de 2px vers le bas */
+    }
+}
+
+.animate-moveUpDown {
+    animation: moveUpDown 1s infinite; /* Applique l'animation en continu avec une durée de 1 seconde */
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slide-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fadeIn {
+    animation: fade-in 1s ease-out;
+}
+
+.animate-slideUp {
+    animation: slide-up 1s ease-out;
+}
+
+/* Exemple pour ajouter l'animation de mouvement de bas en haut */
+.animate-slideUp {
+    animation: slide-up 1s ease-out;
+}
+
