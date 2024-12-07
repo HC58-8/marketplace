@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.330cd479.css",
+    "main.js": "/static/js/main.5582631b.js",
+    "static/js/453.80efc53e.chunk.js": "/static/js/453.80efc53e.chunk.js",
+    "static/media/bgimg7.jpeg": "/static/media/bgimg7.6399a10565ca9eff66b2.jpeg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/electro.jpg": "/static/media/electro.679e5640509165ba23ec.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/ia1.jpg": "/static/media/ia1.134b1ce5a133ce4feaac.jpg",
+    "static/media/ia3.jpeg": "/static/media/ia3.d2517c4f1ac7982075e7.jpeg",
+    "static/media/ia2.jpg": "/static/media/ia2.e50535e6fa3f0a8907b3.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/vetement.jpg": "/static/media/vetement.fb3c7f8e9f46af148272.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bgimg6.png": "/static/media/bgimg6.477a269ce07e9495952b.png",
+    "static/media/home.jpg": "/static/media/home.9b33aebc359f7f98a241.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.330cd479.css.map": "/static/css/main.330cd479.css.map",
+    "main.5582631b.js.map": "/static/js/main.5582631b.js.map",
+    "453.80efc53e.chunk.js.map": "/static/js/453.80efc53e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.330cd479.css",
+    "static/js/main.5582631b.js"
+  ]
+}
